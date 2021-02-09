@@ -1,20 +1,20 @@
 {
-  "title": "Alex's JAMstack extravoganza",
-  "url": "https://compassionate-lalande-c7f2e6.netlify.app/",
+  "title": "Olena's JAMstack extravoganza",
+  "url": "https://laughing-nobel-230c3d.netlify.app/",
   "description": "JAMStack example site, to showcase my dev skills",
   "feed": {
     "subtitle": "JAMStack example site, to showcase my dev skills",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://compassionate-lalande-c7f2e6.netlify.app/"
+    "id": "https://laughing-nobel-230c3d.netlify.app/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://compassionate-lalande-c7f2e6.netlify.app/feed/feed.json"
+    "url": "https://laughing-nobel-230c3d.netlify.app/feed/feed.json"
   },
   "author": {
     "name": "Your Name Here",
     "email": "youremailaddress@example.com",
-    "url": "https://compassionate-lalande-c7f2e6.netlify.app/about-me/"
+    "url": "https://laughing-nobel-230c3d.netlify.app/about-me/"
   }
 }
