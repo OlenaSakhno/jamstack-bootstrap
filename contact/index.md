@@ -10,7 +10,7 @@ eleventyNavigation:
 <div class="container md-5">
     <div class="row">
         <div class="col-md-8">
-            <form class="form-check" name="contact" method="POST" data-netlify="true" onsubmit="valid()" >
+            <form class="form-check" name="contact" id="contactForm" method="POST" data-netlify="true" onsubmit="valid()" >
                 <div class="form-group"> 
                     <label for="name" class="form-label">Your Name: </label> 
                     <input class="form-control" type="text" name="name" id="name" placeholder="Enter name" required />

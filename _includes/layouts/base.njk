@@ -46,22 +46,18 @@
     <!-- Current page: {{ page.url | url }} -->
 
     <script>
-    
-    function validateForm() {
-        var x = document.querySelector("#Textarea1").value.length;
-        console.log(x);
-        if (x < 50 && x>200) {
-          alert("The message must be between 50 and 200 characters long");
-          return false;
-        }
+        document.querySelector("form").addEventListener("submit", handleSubmit);
+        const handleSubmit = (e) => {
+        e.preventDefault()
+        let myForm = document.getElementById('contactForm');
+        let formData = new FormData(myForm)
+        fetch('/', {
+          method: 'POST',
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams(formData).toString()
+        }).then(() => console.log('Form successfully submitted')).catch((error) =>
+          alert(error))
       }
-
-      var btn=document.getElementById('formSubmit');
-      btn.onsubmit=validateForm();
-
-    
-    </script>
-
-
+    <script>
   </body>
 </html>
