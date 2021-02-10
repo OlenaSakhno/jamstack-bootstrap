@@ -44,5 +44,24 @@
     </footer>
     <script src="{{ '/css/bootstrap/js/bootstrap.min.js' | url }}"></script>
     <!-- Current page: {{ page.url | url }} -->
+
+    <script>
+    
+    function validateForm() {
+        var x = document.querySelector("#Textarea1").value.length;
+        console.log(x);
+        if (x < 50 && x>200) {
+          alert("The message must be between 50 and 200 characters long");
+          return false;
+        }
+      }
+
+      var btn=document.getElementById('formSubmit');
+      btn.onclick=validateForm;
+
+    
+    </script>
+
+
   </body>
 </html>
