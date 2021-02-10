@@ -6,6 +6,7 @@
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
@@ -45,19 +46,6 @@
     <script src="{{ '/css/bootstrap/js/bootstrap.min.js' | url }}"></script>
     <!-- Current page: {{ page.url | url }} -->
 
-    <script>
-        document.querySelector("form").addEventListener("submit", handleSubmit);
-        const handleSubmit = (e) => {
-        e.preventDefault()
-        let myForm = document.getElementById('contactForm');
-        let formData = new FormData(myForm)
-        fetch('/', {
-          method: 'POST',
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: new URLSearchParams(formData).toString()
-        }).then(() => console.log('Form successfully submitted')).catch((error) =>
-          alert(error))
-      }
-    <script>
+ 
   </body>
 </html>
