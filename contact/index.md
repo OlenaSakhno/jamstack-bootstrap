@@ -37,14 +37,21 @@ eleventyNavigation:
                     <option>Week 4</option>
                 </select>
         </div>
+        <br>
         <div class="form-group">
             <label for="Textarea1" class="form-label">Message: </label>
             <textarea class="form-control" id="Textarea1" rows="3"  name="message" placeholder="Enter your message here"></textarea>
         </div>
         <br>
         <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" >
             <label class="form-check-label " for="exampleCheck1">Need accommodation</label>
+        </div>
+        <br>
+        <a href="/" target="_blank">Read terms and conditions</a>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+            <label class="form-check-label " for="exampleCheck1">Agree to terms and conditions </label>
         </div>
         <br>
         <button class="btn btn-primary " type="submit">Send</button>
