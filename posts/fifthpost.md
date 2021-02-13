@@ -3,13 +3,11 @@ layout: layouts/post.njk
 title: This is my fifth post.
 date: 2021-02-10
 thumbnail: /images/uploads/pexels-freestocksorg-4983148.jpg
-tags:
-  - another-tag
-  - different
+rating: 3
+tags: List [ "another-tag", "different", "cms" ]
 tag: -CMS
 image: /img/kanga.jpg
 description: null
-rating: 3
 ---
 <div id="table">            
     <table class="tftable">
