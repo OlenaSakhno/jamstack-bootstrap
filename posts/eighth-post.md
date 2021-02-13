@@ -10,3 +10,6 @@ tags: CMS
 The image was added with URL
 
 ![https://images.pexels.com/photos/6620787/pexels-photo-6620787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260](https://images.pexels.com/photos/6620787/pexels-photo-6620787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 "https://images.pexels.com/photos/6620787/pexels-photo-6620787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+ 
+
+ added with VSC
