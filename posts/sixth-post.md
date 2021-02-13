@@ -8,4 +8,4 @@ tag: CMS
 ---
 ## This is my sixth post
 
-I have write  it in Netlify content manager.
+I wrote  it in Netlify content manager.
