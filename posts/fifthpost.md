@@ -6,7 +6,7 @@ thumbnail: /images/uploads/pexels-freestocksorg-4983148.jpg
 tags:
   - another-tag
   - different
-tag: "- CMS"
+tag: -CMS
 image: /img/kanga.jpg
 description: null
 rating: 3
