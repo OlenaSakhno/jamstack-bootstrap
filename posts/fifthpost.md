@@ -1,14 +1,16 @@
 ---
+layout: layouts/post.njk
 title: This is my fifth post.
-description: 
 date: 2021-02-10
+thumbnail: /images/uploads/pexels-ethan-brooke-3567166.jpg
 tags:
   - another-tag
   - different
-layout: layouts/post.njk
+tag: CMS
 image: /img/kanga.jpg
+description: null
+rating: 3
 ---
-
 <div id="table">            
     <table class="tftable">
     <tbody><tr><th>Band</th><th>Year formed</th><th>No. of albums</th><th>Most famous song</th></tr>
@@ -28,3 +30,5 @@ image: /img/kanga.jpg
 <div class="col-md-8  iframe-container">
     <iframe class="d-block w-100" src="https://www.youtube.com/embed/nVrdXUHvsF0?start=14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
+
+![new img    Photo by Raphael Brasileiro from Pexels](/images/uploads/pexels-raphael-brasileiro-6047129.jpg "Photo by Raphael Brasileiro from Pexels")
