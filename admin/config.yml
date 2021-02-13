@@ -17,7 +17,7 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tag", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "string"}
 
 
     
