@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: "Sixth post "
 date: 2021-02-13T17:58:34.272Z
 thumbnail: /images/uploads/pexels-freestocksorg-4983148.jpg
