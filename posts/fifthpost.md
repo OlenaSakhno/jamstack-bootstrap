@@ -2,7 +2,6 @@
 layout: layouts/post.njk
 title: This is my fifth post.
 date: 2021-02-10
-thumbnail: /images/uploads/pexels-freestocksorg-4983148.jpg
 rating: 3
 tags: - second-tag
 image: /img/kanga.jpg
