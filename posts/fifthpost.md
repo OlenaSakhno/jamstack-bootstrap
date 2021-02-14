@@ -3,7 +3,8 @@ layout: layouts/post.njk
 title: This is my fifth post.
 date: 2021-02-10
 rating: 3
-tags: - second-tag
+tags: 
+    - second-tag
 image: /img/kanga.jpg
 description: null
 ---
@@ -27,4 +28,3 @@ description: null
     <iframe class="d-block w-100" src="https://www.youtube.com/embed/nVrdXUHvsF0?start=14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
 
-![new img    Photo by Raphael Brasileiro from Pexels](/images/uploads/pexels-raphael-brasileiro-6047129.jpg "Photo by Raphael Brasileiro from Pexels")
