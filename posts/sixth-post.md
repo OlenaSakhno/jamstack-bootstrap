@@ -13,4 +13,6 @@ rating: 4
 
 I wrote  it in Netlify content manager.
 
+All content was added using the content manager
+
 <iframe width="620" height="349" src="https://www.youtube.com/embed/KFemWAXx-3I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
