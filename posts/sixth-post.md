@@ -12,3 +12,5 @@ rating: 4
 ## This is my sixth post
 
 I wrote  it in Netlify content manager.
+
+<iframe width="620" height="349" src="https://www.youtube.com/embed/KFemWAXx-3I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
