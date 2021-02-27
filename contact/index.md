@@ -42,11 +42,7 @@ eleventyNavigation:
                     <label for="Textarea1" class="form-label">Message: </label>
                     <textarea class="form-control" id="Textarea1" rows="3"  name="message" placeholder="Enter your message here"></textarea>
                 </div>
-                <br>
-                <!--<div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="Check1" >
-                    <label class="form-check-label " for="Check1">Need accommodation</label>
-                </div>-->
+                <br>                
                 <br>
                 <a href="/" target="_blank">Read terms and conditions</a>
                 <div class="form-check">
