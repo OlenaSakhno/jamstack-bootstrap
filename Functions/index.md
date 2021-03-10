@@ -1,12 +1,13 @@
 ---
-layout: layouts/post.njk
+layout: layouts/base.njk
 title: Functions
 templateClass: tmpl-post
 eleventyNavigation:
   key: Function and Control Flow
-  order: 6
+  order: 2
+  parent: JS Tasks
 ---
-<div class="container mt-4">
+<div class="container ml-2 mt-4">
   <h1>Basic JavaScript Tasks</h1> 
   <p>Open the  console to view the results</p> 
 </div>

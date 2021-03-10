@@ -5,12 +5,14 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const util = require('util')
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const util = require('util');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.setDataDeepMerge(true);
 
@@ -51,6 +53,7 @@ module.exports = function(eleventyConfig) {
             case "nav":
             case "post":
             case "posts":
+            case "home":  
               return false;
           }
 

@@ -1,11 +1,13 @@
 ---
-layout: layouts/post.njk
+layout: layouts/base.njk
 title: JS Tasks
 templateClass: tmpl-post
 eleventyNavigation:
   key: JS Tasks
   order: 5
+  parentType: dummy
 ---
+             
 
 <script>
     var a = 5;
