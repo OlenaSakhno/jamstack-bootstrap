@@ -9,7 +9,9 @@ eleventyNavigation:
     key: Carusel (Bootstrap)
     order: 1
 ---
-
+<style>
+ body {background-color: rgb(100, 107, 106) !important; }
+</style>
 <section class="hero">
       <div class="container-fluid p-0">
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">

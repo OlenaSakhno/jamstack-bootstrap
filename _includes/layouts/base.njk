@@ -11,10 +11,13 @@
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
     <link rel="stylesheet" href="{{ '/css/bootstrap/css/bootstrap.min.css' | url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> 
   </head>
   <body>
     {% include './navbar.njk'%}
+
+   {% include './navbar v2.njk'%} 
    <!-- <header>
       <h1 class="home"><a href="{{ '/' | url }}"></a></h1>
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
@@ -41,11 +44,7 @@
       {{ content | safe }}
     </main>
 
-    <footer class="footer">
-      <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
-      </div>
-    </footer>
+    {% include './footer.njk'%}
     <script src="{{ '/css/bootstrap/js/bootstrap.min.js' | url }}"></script>
     <!-- Current page: {{ page.url | url }} -->
 
