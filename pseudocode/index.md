@@ -5,7 +5,7 @@ templateClass: tmpl-post
 eleventyNavigation:
   key: Pseudocode
   order: 3
-  parent: JS Tasks
+  parent: JavaScript
 ---
 <div class="container mt-4 ml-2">
   <h1>Basic JavaScript Tasks</h1>

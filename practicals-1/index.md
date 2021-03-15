@@ -5,7 +5,7 @@ templateClass: tmpl-post
 eleventyNavigation:
   key: Practical-1
   order: 1
-  parent: JS Tasks
+  parent: JavaScript
 
 ---
 <div class="container mt-4">

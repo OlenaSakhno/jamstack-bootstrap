@@ -5,7 +5,7 @@ templateClass: tmpl-post
 eleventyNavigation:
   key: Function and Control Flow
   order: 2
-  parent: JS Tasks
+  parent: JavaScript
 ---
 <div class="container ml-2 mt-4">
   <h1>Basic JavaScript Tasks</h1>

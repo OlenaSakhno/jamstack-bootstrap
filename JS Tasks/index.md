@@ -1,9 +1,9 @@
 ---
 layout: layouts/base.njk
-title: JS Tasks
+title: JavaScript
 templateClass: tmpl-post
 eleventyNavigation:
-  key: JS Tasks
+  key: JavaScript
   order: 5
   parentType: dummy
 ---
