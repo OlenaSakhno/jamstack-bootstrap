@@ -24,18 +24,7 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
   });
 
-  eleventyConfig.addFilter("filterPosts", (array) => {
-    return array.filter(
-      (element) => !element.template.inputPath.includes("post")
-    );
-  });
-
-  eleventyConfig.addFilter("filterChallenges", (array) => {
-    return array.filter(
-      (element) => element.template.inputPath.includes("challenge")
-    );
-  }); 
-
+  
 
 
 
