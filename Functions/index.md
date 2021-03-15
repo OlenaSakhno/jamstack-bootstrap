@@ -8,7 +8,8 @@ eleventyNavigation:
   parent: JS Tasks
 ---
 <div class="container ml-2 mt-4">
-  <h1>Basic JavaScript Tasks</h1> 
+  <h1>Basic JavaScript Tasks</h1>
+  <h2>Functions and Control Flow</h2> 
   <p>Open the  console to view the results</p> 
 </div>
 <script>

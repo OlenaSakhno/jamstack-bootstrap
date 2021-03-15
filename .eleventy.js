@@ -18,9 +18,28 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
   eleventyConfig.addLayoutAlias("blog", "layouts/post.njk");
+  eleventyConfig.addLayoutAlias("challenge", "layouts/challenge.njk");
+  eleventyConfig.addLayoutAlias("challengeslist", "challengeslist.njk");
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("dd LLL yyyy");
   });
+
+  eleventyConfig.addFilter("filterPosts", (array) => {
+    return array.filter(
+      (element) => !element.template.inputPath.includes("post")
+    );
+  });
+
+  eleventyConfig.addFilter("filterChallenges", (array) => {
+    return array.filter(
+      (element) => element.template.inputPath.includes("challenge")
+    );
+  }); 
+
+
+
+
+
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
@@ -53,7 +72,9 @@ module.exports = function(eleventyConfig) {
             case "nav":
             case "post":
             case "posts":
-            case "home":  
+            case "home":
+            case "challenge": 
+            case "challenges":  
               return false;
           }
 

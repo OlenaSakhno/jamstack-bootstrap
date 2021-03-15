@@ -232,15 +232,17 @@ body{
   padding-bottom:100px;
 }
 footer{
-  clear:both;
-  height: 75px;
-  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  text-align: left;
   color: aliceblue;
   background-color: #212529;
   box-shadow: 3px -3px 3px #000;
-  margin-top: 20px;
+  padding-bottom: 10px;
 }
-footer a{
+footer div a{
   color: aliceblue!important;
 }
 
