@@ -1,20 +1,20 @@
 {
   "title": "Olena's JAMstack",
-  "url": "https://laughing-nobel-230c3d.netlify.app/",
+  "url": "https://elated-perlman-cf0422.netlify.app",
   "description": "JAMStack example site, to showcase my dev skills",
   "feed": {
     "subtitle": "JAMStack example site, to showcase my dev skills",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://laughing-nobel-230c3d.netlify.app/"
+    "id": "https://elated-perlman-cf0422.netlify.app"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://laughing-nobel-230c3d.netlify.app/feed/feed.json"
+    "url": "https://elated-perlman-cf0422.netlify.app/feed/feed.json"
   },
   "author": {
     "name": "Olena",
     "email": "olena.sakhno@gmail.com",
-    "url": "https://laughing-nobel-230c3d.netlify.app/about-me/"
+    "url": "https://elated-perlman-cf0422.netlify.app/about-me/"
   }
 }
