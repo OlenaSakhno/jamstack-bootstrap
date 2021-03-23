@@ -1,9 +1,9 @@
 ---
 layout: layouts/base.njk
-title: Challenges
+title: HTML & CSS Challenges
 templateClass: tmpl-post
 eleventyNavigation:
-  key: Challenges
+  key: HTML & CSS Challenges
   order: 6
   parentType: dummy
 ---

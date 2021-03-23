@@ -5,7 +5,7 @@ date: 2021-02-10
 rating: 3
 
 eleventyNavigation: 
-    parent: Challenges
+    parent: HTML & CSS Challenges
     key: Carusel (Bootstrap)
     order: 3
 ---

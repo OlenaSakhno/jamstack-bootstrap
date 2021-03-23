@@ -88,7 +88,7 @@ eleventyNavigation:
         <button type="button" class="btn btn-outline-secondary" id="percentBtn">%</button>
         <button type="button" class="btn btn-outline-secondary" id="CirclesAreaBtn">Circles area</button>
       </div>
-      <button type="button" class="btn btn-outline-secondary" id="roundResultBtn">Round result</button>
+      <button type="button" class="btn btn-outline-secondary" id="roundResultBtn">Round circles area result</button>
       <h3 id="calculatorResult"></h3>
     </div>
   </div>

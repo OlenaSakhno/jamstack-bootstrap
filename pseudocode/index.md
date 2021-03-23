@@ -64,20 +64,5 @@ for(counter = 0; counter<=100; counter++){
 </script>
 
 <script>
- // CREATE function fixStart(argument){}
- function fixStart(argument){
-   var newString = argument.charAt(0)
-//LOOP through length of argument
-  for(i=1; i<argument.length; i++){
-    
-//IF variable is equal first letter
-  if(){
-    newString +=argument.charAt(i)
-  }
-//THEN change letter to *
-//  ADD letter or * to new variable
-  }
-//  RETURN new variable
- }
-  CALL the function(argument)
+
 </script>
