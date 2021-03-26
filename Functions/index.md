@@ -162,7 +162,7 @@ eleventyNavigation:
 <script>
 //    What number is bigger?
 function bigerNumber(a,b){
-   let res;
+  let res;
    if (a>b){
    res = a;
   }
@@ -177,8 +177,9 @@ function bigerNumber(a,b){
 };
 let CompareBtn = document.querySelector('#CompareBtn');
 CompareBtn.onclick = function(){
-  let c = document.querySelector('#number1').value;
-  let d= document.querySelector('#number2').value; 
+  let c = Number(document.querySelector('#number1').value);
+  let d= Number(document.querySelector('#number2').value); 
+  //console.log('c='+c + 'd=' +d);
   bigerNumber(c,d);
   };
 //    The Fortune Teller: With Functions!
